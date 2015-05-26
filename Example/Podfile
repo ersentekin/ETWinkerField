@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ETWinkerField_Example', :exclusive => true do
+  pod "ETWinkerField", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ETWinkerField", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
