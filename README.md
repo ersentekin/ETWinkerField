@@ -1,12 +1,11 @@
 ##![](Resource/logotype.png)
 
+![](Resource/ss-gif.gif)
+
 [![CI Status](http://img.shields.io/travis/Ersen Tekin/ETWinkerField.svg?style=flat)](https://travis-ci.org/Ersen Tekin/ETWinkerField)
 [![Version](https://img.shields.io/cocoapods/v/ETWinkerField.svg?style=flat)](http://cocoapods.org/pods/ETWinkerField)
 [![License](https://img.shields.io/cocoapods/l/ETWinkerField.svg?style=flat)](http://cocoapods.org/pods/ETWinkerField)
 [![Platform](https://img.shields.io/cocoapods/p/ETWinkerField.svg?style=flat)](http://cocoapods.org/pods/ETWinkerField)
-
-
-
 ## Usage
 
 ####Via Storyboard
