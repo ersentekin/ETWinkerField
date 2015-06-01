@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "Password visibility switch button for UITextField"
   s.description      = <<-DESC
-                       Password visibility switch button for UITextField
+                       You can manage your password text fields easily with ETWinkerField. It also includes custom image support for your toggle button.
                        DESC
   s.homepage         = "https://github.com/ersentekin/ETWinkerField"
   # s.screenshots     = "https://github.com/ersentekin/ETWinkerField/Resource/ss-device.png"
