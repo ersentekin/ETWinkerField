@@ -1,0 +1,6 @@
+framework module ETWinkerField {
+  umbrella header "Pods-ETWinkerField_Example-ETWinkerField-umbrella.h"
+
+  export *
+  module * { export * }
+}

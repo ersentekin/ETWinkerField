@@ -8,6 +8,10 @@
 
 @import UIKit;
 
-@interface ETViewController : UIViewController
+#import <ETWinkerField/ETWinkerField.h>
+
+@interface ETViewController : UIViewController <ETWinkerFieldProtocol>
+
+@property (strong, nonatomic) IBOutlet ETWinkerField *passwordTextField;
 
 @end

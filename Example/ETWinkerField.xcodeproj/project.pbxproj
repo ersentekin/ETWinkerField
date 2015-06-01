@@ -23,6 +23,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		62165DCB1B1C78140026B082 /* wink.png in Resources */ = {isa = PBXBuildFile; fileRef = 62165DCA1B1C78130026B082 /* wink.png */; };
+		62165DCD1B1C7B1C0026B082 /* wink-hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 62165DCC1B1C7B1C0026B082 /* wink-hidden.png */; };
 		C6D74B9858AC97B50F803700 /* Pods_ETWinkerField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16633BF8E2A892FF9C4AB15C /* Pods_ETWinkerField_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -42,7 +44,7 @@
 		19CBD91B8F5F1D1D3D55192A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		363D751090CC15F8FC3324EF /* Pods-ETWinkerField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETWinkerField_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETWinkerField_Example/Pods-ETWinkerField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5E9EAFA1AB80AC6E6DBF08C3 /* ETWinkerField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ETWinkerField.podspec; path = ../ETWinkerField.podspec; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* ETWinkerField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ETWinkerField.app; path = ETWinkerField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* ETWinkerField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETWinkerField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -63,6 +65,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		62165DCA1B1C78130026B082 /* wink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink.png; sourceTree = "<group>"; };
+		62165DCC1B1C7B1C0026B082 /* wink-hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wink-hidden.png"; sourceTree = "<group>"; };
 		938B9BCB802357D561A28D16 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03F463DEAB44BEB065177FB /* Pods-ETWinkerField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETWinkerField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETWinkerField_Example/Pods-ETWinkerField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B220604927DA102A46DA0A1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -121,7 +125,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* ETWinkerField.app */,
+				6003F58A195388D20070C39A /* ETWinkerField_Example.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 			);
 			name = Products;
@@ -143,6 +147,8 @@
 		6003F593195388D20070C39A /* Example for ETWinkerField */ = {
 			isa = PBXGroup;
 			children = (
+				62165DCC1B1C7B1C0026B082 /* wink-hidden.png */,
+				62165DCA1B1C78130026B082 /* wink.png */,
 				6003F59C195388D20070C39A /* ETAppDelegate.h */,
 				6003F59D195388D20070C39A /* ETAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -216,7 +222,7 @@
 			);
 			name = ETWinkerField_Example;
 			productName = ETWinkerField;
-			productReference = 6003F58A195388D20070C39A /* ETWinkerField.app */;
+			productReference = 6003F58A195388D20070C39A /* ETWinkerField_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* Tests */ = {
@@ -280,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
+				62165DCB1B1C78140026B082 /* wink.png in Resources */,
+				62165DCD1B1C7B1C0026B082 /* wink-hidden.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
